@@ -1,5 +1,5 @@
-## This is an extension of the built in matrix type that contains additional
-## functionality to get/set the inverse of itself (cache)
+## This function creates a special version of the matrix type
+## that contains additional functionality to get/set the inverse of itself (cache)
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
